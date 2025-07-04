@@ -3,6 +3,8 @@ data_source_path = '/usr/local/airflow/dags/gcs_bq/data/supermarket_sales.csv'
 gcs_bucket_name = 'gcs_bucket_255'
 gcs_file_name = 'supermarket_sales.csv'
 
+project_id = 'de-engr'
+
 schema_fields = [
     {"name": "Invoice ID", "type": "STRING", "mode": "NULLABLE"},
     {"name": "Branch", "type": "STRING", "mode": "NULLABLE"},
