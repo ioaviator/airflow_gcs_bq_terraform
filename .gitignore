@@ -3,6 +3,8 @@
 .DS_Store
 airflow_settings.yaml
 __pycache__/
+de-engr-key.json
+data
 astro
 .astro
 .venv
